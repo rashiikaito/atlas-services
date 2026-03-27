@@ -1,0 +1,19 @@
+{
+  "name": "atlas-managed-services",
+  "version": "1.0.0",
+  "description": "Atlas Managed Services - Trusted Operations Partner in Kenya",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  }
+}
