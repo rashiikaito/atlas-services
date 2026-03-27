@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Geist', sans-serif;
+  background-color: #F5F1E8;
+  color: #1E293B;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #1E293B;
+}
+
+a {
+  color: #C5A059;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0D9488;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, rgba(197, 160, 89, 0.1) 0%, rgba(13, 148, 136, 0.1) 100%);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.service-card {
+  background: white;
+  border-left: 4px solid #C5A059;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  transform: translateY(-4px);
+}
+
+.cta-button {
+  background-color: #C5A059;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0D9488;
+}
+
+.cta-button-secondary {
+  background-color: #0D9488;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  border: 2px solid #0D9488;
+  cursor: pointer;
+}
+
+.cta-button-secondary:hover {
+  background-color: transparent;
+  color: #0D9488;
+}
